@@ -1,9 +1,8 @@
-
 # Docker Deployment
 
 ## Voraussetzungen
 
-- Docker muss installiert sein (https://www.docker.com/products/docker-desktop)
+- Docker muss installiert sein (https://www.docker.com/products/docker-desktop).
 - Ein Projekt haben mit z.B. TypeScript/Node.js
 
 ---
