@@ -1,9 +1,8 @@
-
 # Docker Deployment
 
 ## Voraussetzungen
 
-- Docker muss installiert sein (https://www.docker.com/products/docker-desktop)
+- Docker muss installiert sein (https://www.docker.com/products/docker-desktop).
 - Ein Projekt haben mit z.B. TypeScript/Node.js
 
 ---
@@ -106,7 +105,7 @@ docker volume prune -f
 ## Docker Compose
 
 ```yaml
-version: '3.8'
+version: "3.8"
 services:
   app:
     build: .
