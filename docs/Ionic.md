@@ -4,11 +4,9 @@
 
 ### Warum eigentlich Ionic?
 
-Ionic ist ein Framework, mit dem du ganz einfach Apps entwickeln kannst, egal ob für **Android**, **iOS**, **Web** oder sogar den **Desktop. Das Beste daran: Du nutzt ganz normale Webtechnologien wie HTML, CSS und **JavaScript (oder TypeScript)**.
+Mit Ionic kannst du Apps bauen, die auf fast allem laufen, egal ob auf einem Android-Handy, einem iPhone, im Browser oder sogar auf dem Computer. Und das Beste: Du brauchst dafür nur ganz normale Web-Technologien wie HTML, CSS und JavaScript (oder TypeScript).
 
-Ionic vereint die Stärken der Webentwicklung mit den Möglichkeiten nativer Funktionen, zum Beispiel Zugriff auf die Kamera, GPS oder Push-Benachrichtigungen. Dafür kommt **Capacitor** ins Spiel.
-
-### Was kannst du damit bauen?
+Und obwohl du eigentlich eine Web-App entwickelst, kannst du trotzdem Funktionen wie Kamera oder Push-Nachrichten nutzen. Möglich ist das mit einem Tool namens Capacitor.
 
 Mit Ionic entwickelst du Apps für:
 
@@ -19,7 +17,7 @@ Mit Ionic entwickelst du Apps für:
 
 ---
 
-## Los geht’s: Ionic einrichten
+## Beginnen wir mit dem Einrichten von Ionic
 
 ### 1. Node.js installieren
 
@@ -53,7 +51,7 @@ ionic start meine-erste-app blank --type=react
 - `blank`: Eine leere Vorlage
 - `--type=react`: Du nutzt React als Framework
 
-Bei der Frage „Integrate Capacitor?“ klickst du auf Ja, wenn du native Funktionen nutzen willst.
+Wenn eine frage wie: „Integrate Capacitor?“ steht dann klickst du auf Ja, wenn du native Funktionen nutzen willst.
 
 ### 4. Projekt starten
 
