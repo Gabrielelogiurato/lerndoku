@@ -1,4 +1,4 @@
-# JavaSCript Promises
+# JavaScript Promises
 
 In dieser Lerndoku schreibe ich die Grundlagen von Promises auf für mein ÜK und für's weitere Programmieren.
 
