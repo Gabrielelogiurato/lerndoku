@@ -74,8 +74,8 @@ import {
   IonHeader,
   IonPage,
   IonTitle,
-  IonToolbar
-} from '@ionic/react';
+  IonToolbar,
+} from "@ionic/react";
 
 const Home: React.FC = () => (
   <IonPage>
@@ -135,8 +135,8 @@ ionic capacitor open ios
 
 ## Nützliche Befehle
 
-| Befehl                        | Beschreibung                                        |
-|------------------------------|-----------------------------------------------------|
+| Befehl                       | Beschreibung                                        |
+| ---------------------------- | --------------------------------------------------- |
 | `ionic serve`                | Starte die App im Browser                           |
 | `ionic build`                | Erstelle ein Build der App                          |
 | `ionic capacitor sync`       | Synchronisiere Änderungen mit den nativen Projekten |

@@ -5,6 +5,7 @@
 XLSX ist ein Dateiformat für Tabellenkalkulationen, das von Microsoft verwendet wird.
 
 ## Verwendung in NetGrade
+
 In NetGrade verwenden wir XLSX für den Export unserer Schuldaten. Die Bibliothek xlsx ermöglicht es uns, Daten in Excel-Format zu konvertieren und zu speichern.
 
 Ein Beispiel in unserem Code
@@ -33,4 +34,3 @@ Wir verwenden es um verschiedene Sachen zu Exportieren wie zb:
 - Fächer und Lehrer (Lehrer noch nicht)
 - Prüfungen und Noten
 - Und Zusammenfassungen (Kommentare)
-    

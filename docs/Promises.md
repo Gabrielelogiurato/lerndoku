@@ -11,7 +11,7 @@ Es ist ein Objekt welches einen Zukünftigen Wert darstellt wie Zb im ÜK gelern
 - rejected " Der Vorgamg ist fehlgeschlagen"
 
   Man sollte .then für Erfolge verwenden und .catch für Fehler.
-Hier ein Beipsiel:
+  Hier ein Beipsiel:
 
 ```
 promise
@@ -43,7 +43,6 @@ async function ladePost() {
 }
 
 ```
-
 
 Man kann auch SetTimeout benutzen um etwas zu verzögern:
 
