@@ -31,7 +31,7 @@ Die bestehende Punchclock-Applikation wurde um zusätzliche CRUD-Funktionen erwe
 
 ```
 @DELETE
-@Path("/{id}")
+@Path("/\{id\}")
 @Transactional
 public void deleteEntry(@PathParam("id") Long id) {
     Entry entry = Entry.findById(id);
@@ -44,7 +44,7 @@ public void deleteEntry(@PathParam("id") Long id) {
 **Erklärung:**
 
 - `@DELETE` definiert die HTTP-Methode
-- `@Path("/{id}")` liest die ID aus der URL
+- `@Path("/\{id\}")` liest die ID aus der URL
 - `@Transactional` stellt sicher, dass die Datenbankoperation atomar ausgeführt wird
 
 ---
@@ -149,8 +149,8 @@ Vor der Implementierung wurden die Endpunkte geplant und dokumentiert.
 | Endpunkt    | Methode | Beschreibung       |
 | ----------- | ------- | ------------------ |
 | /tasks      | POST    | Aufgabe erstellen  |
-| /tasks/{id} | PUT     | Aufgabe bearbeiten |
-| /tasks/{id} | DELETE  | Aufgabe löschen    |
+| /tasks/\{id\} | PUT     | Aufgabe bearbeiten |
+| /tasks/\{id\} | DELETE  | Aufgabe löschen    |
 
 ---
 
