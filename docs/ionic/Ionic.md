@@ -3,7 +3,7 @@ title: Ionic
 sidebar_position: 4
 ---
 
-# Mobile App mit Ionic (React)
+# Ionic
 
 ## Warum eigentlich Ionic?
 

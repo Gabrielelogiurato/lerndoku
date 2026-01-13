@@ -3,7 +3,7 @@ title: Docker
 sidebar_position: 2
 ---
 
-# Docker Deployment
+# Docker
 
 ## Voraussetzungen
 

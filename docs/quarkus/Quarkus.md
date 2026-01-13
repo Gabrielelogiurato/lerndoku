@@ -3,7 +3,7 @@ title: ÜK
 sidebar_position: 7
 ---
 
-# ÜK – Lerndokumentation
+# ÜK
 
 In dieser Dokumentation werden die wichtigsten Konzepte und Erweiterungen beschrieben, die im ÜK anhand der **Punchclock-Applikation** umgesetzt wurden.  
 Die Applikation basiert auf **Quarkus** und verwendet moderne Backend-Technologien wie **REST-APIs**, **JPA/Hibernate**, **DTOs**, **JWT-Authentifizierung**, **Dependency Injection**, **Datenbankmigrationen** und **Testing**.

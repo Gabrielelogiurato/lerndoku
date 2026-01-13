@@ -3,7 +3,9 @@ title: NestJs
 sidebar_position: 5
 ---
 
-# 1) Was ist NestJS und warum nutzt man es?
+# NestJs
+
+## 1) Was ist NestJS und warum nutzt man es?
 
 NestJS ist ein **Node.js Framework**, das stark von Angular inspiriert ist:
 
@@ -15,7 +17,7 @@ NestJS ist ein **Node.js Framework**, das stark von Angular inspiriert ist:
 
 ---
 
-# 2) Module – das Organisations-Backbone
+## 2) Module – das Organisations-Backbone
 
 Ein Module ist eine Klasse mit `@Module()`‑Decorator.  
 Es definiert:
@@ -41,7 +43,7 @@ export class CatsModule {}
 
 ---
 
-# 3) Controller – Requests annehmen & Antworten liefern
+## 3) Controller – Requests annehmen & Antworten liefern
 
 Controller sind für **Input/Output** zuständig:
 
@@ -79,7 +81,7 @@ export class CatsController {
 
 ---
 
-# 4) Provider & Services – Business-Logik + Dependency Injection
+## 4) Provider & Services – Business-Logik + Dependency Injection
 
 Provider sind DI‑fähige Klassen.  
 Services sind die häufigste Provider‑Art.
@@ -111,7 +113,7 @@ export class CatsService {
 
 ---
 
-# 5) DTOs – Datenform fürs API-Interface
+## 5) DTOs – Datenform fürs API-Interface
 
 DTOs definieren die Struktur von Daten, die in die API rein/raus gehen.
 
@@ -124,7 +126,7 @@ export class CreateCatDto {
 
 ---
 
-# 6) Validation – Global aktivieren (main.ts)
+## 6) Validation – Global aktivieren (main.ts)
 
 ```ts
 import { ValidationPipe } from "@nestjs/common";
@@ -142,7 +144,7 @@ app.useGlobalPipes(
 
 ---
 
-# 7) Exception Handling – Exceptions & Filters
+## 7) Exception Handling – Exceptions & Filters
 
 Typische Exceptions:
 
@@ -160,7 +162,7 @@ Use-Cases:
 
 ---
 
-# 8) Middleware – läuft vor dem Routing
+## 8) Middleware – läuft vor dem Routing
 
 Middleware sitzt früh in der Pipeline.
 
@@ -199,7 +201,7 @@ Use-Cases:
 
 ---
 
-# 9) Guards – Auth & Authorization
+## 9) Guards – Auth & Authorization
 
 Guards entscheiden, ob ein Request **in den Handler darf**.
 
@@ -211,7 +213,7 @@ Use-Cases:
 
 ---
 
-# 10) Datenbank & Entities (TypeORM / Prisma)
+## 10) Datenbank & Entities (TypeORM / Prisma)
 
 ## TypeORM
 
@@ -236,7 +238,7 @@ Repository‑Injection:
 
 ---
 
-# 11) CLI & Resource Generator
+## 11) CLI & Resource Generator
 
 Nest CLI kann automatisch generieren:
 

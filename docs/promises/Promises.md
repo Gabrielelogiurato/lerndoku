@@ -3,7 +3,7 @@ title: Promises
 sidebar_position: 6
 ---
 
-# JavaScript Promises
+# Promises
 
 In dieser Lerndoku schreibe ich die Grundlagen von Promises auf für mein ÜK und für's weitere Programmieren.
 
