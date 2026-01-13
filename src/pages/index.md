@@ -23,7 +23,6 @@ Informatiker/in EFZ (Fachrichtung Applikationsentwicklung).
 ## Vorgaben in unserem Betrieb
 
 1. **Prüfung der Dokumentation**
-
    - **Monatliche Kontrolle:** In unserem Betrieb wird die Lerndokumentation **einmal pro Monat** überprüft und mit den
      Lernenden besprochen.
    - Ziel ist es, einen regelmässigen Austausch über die Lernfortschritte sicherzustellen und frühzeitig Unterstützung

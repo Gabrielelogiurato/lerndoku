@@ -18,7 +18,6 @@ anpasst und auf GitHub Pages deployst.
 > Repository dennoch öffentlich schalten musst, um GitHub Pages zu nutzen.
 
 1. **Aktiviere GitHub Pages**
-
    - Navigiere zu **GitHub.com → Dein Repository → Settings → Pages → Build and deployment → Source**
    - Wähle **GitHub Actions** anstelle von “Deploy from a branch”.
 
@@ -40,13 +39,11 @@ anpasst und auf GitHub Pages deployst.
 ## 2. Projekt-Setup
 
 1. **Repository forken**
-
    - Klicke in GitHub auf `Fork`, um das Projekt in deinen eigenen GitHub-Account zu kopieren.
    - Stelle sicher, dass dein geforktes Repository **privat** ist, **wenn** du nicht möchtest, dass es öffentlich
      einsehbar ist (beachte aber, dass GitHub Pages ohne Enterprise-Plan für private Repos nicht funktioniert).
 
 2. **Lokale Kopie klonen**
-
    - Klone dein geforktes Repository auf deinen Rechner:
      ```bash
      git clone https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
@@ -57,7 +54,6 @@ anpasst und auf GitHub Pages deployst.
      ```
 
 3. **Abhängigkeiten installieren**
-
    - Installiere alle benötigten Pakete:
      ```bash
      npm i
@@ -113,14 +109,12 @@ npm run build
 ### 5.2 GitHub Pages
 
 1. **Vorbereitung**
-
    - Stelle sicher, dass du in `docusaurus.config.ts` bzw. `.js` `organizationName` und `projectName` korrekt
      eingetragen hast.
    - Commite deine Änderungen und pushe sie auf den `main`-Branch deines Repos.
    - Aktiviere in den Repository-Einstellungen unter **Settings > Pages** das neue Build-System mit GitHub Actions.
 
 2. **Deployment starten**
-
    - Führe folgenden Befehl aus, um auf GitHub Pages zu deployen:
      ```bash
      npm run deploy
@@ -128,7 +122,6 @@ npm run build
    - Dieser Befehl baut die Website und pusht den generierten `build/`-Ordner in den `gh-pages`-Branch.
 
 3. **Resultat ansehen**
-
    - Nach dem Deployment sollte deine Seite unter `https://<YOUR_USERNAME>.github.io/<REPO_NAME>` erreichbar sein.
    - Prüfe gegebenenfalls in den Repository-Einstellungen, ob GitHub Pages aktiviert ist und der Branch `gh-pages`
      ausgewählt ist.
