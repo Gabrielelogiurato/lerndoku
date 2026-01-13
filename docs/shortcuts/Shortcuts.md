@@ -1,3 +1,8 @@
+---
+title: Navigation
+sidebar_position: 9
+---
+
 ## ️ Navigation
 
 | Aktion                   | Shortcut         | Beschreibung                                                         |

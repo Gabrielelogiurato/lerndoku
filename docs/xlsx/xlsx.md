@@ -1,3 +1,8 @@
+---
+title: XLSX
+sidebar_position: 11
+---
+
 # XLSX in Netgrade
 
 ## Was ist XLSX überhaupt

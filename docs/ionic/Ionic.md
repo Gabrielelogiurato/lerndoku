@@ -1,8 +1,11 @@
+---
+title: Ionic
+sidebar_position: 4
+---
+
 # Mobile App mit Ionic (React)
 
-## Einführung
-
-### Warum eigentlich Ionic?
+## Warum eigentlich Ionic?
 
 Mit Ionic kannst du Apps bauen, die auf fast allem laufen, egal ob auf einem Android-Handy, einem iPhone, im Browser oder sogar auf dem Computer. Und das Beste: Du brauchst dafür nur ganz normale Web-Technologien wie HTML, CSS und JavaScript (oder TypeScript).
 

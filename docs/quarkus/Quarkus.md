@@ -1,3 +1,8 @@
+---
+title: ÜK
+sidebar_position: 7
+---
+
 # ÜK – Lerndokumentation
 
 In dieser Dokumentation werden die wichtigsten Konzepte und Erweiterungen beschrieben, die im ÜK anhand der **Punchclock-Applikation** umgesetzt wurden.  

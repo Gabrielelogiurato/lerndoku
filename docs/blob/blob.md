@@ -1,3 +1,8 @@
+---
+title: Blob
+sidebar_position: 3
+---
+
 # Was ist ein Blob
 
 Ein Blob (Binary Large Object) ist ein Datentyp, der binäre Daten wie Dateien, Bilder oder andere Medien speichert. In JavaScript repräsentiert ein Blob-Objekt unveränderliche, rohe Daten.

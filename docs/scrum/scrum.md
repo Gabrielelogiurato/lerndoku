@@ -1,3 +1,8 @@
+---
+title: Scrum
+sidebar_position: 8
+---
+
 # Scrum
 
 ## Was ist Scrum überhaupt
