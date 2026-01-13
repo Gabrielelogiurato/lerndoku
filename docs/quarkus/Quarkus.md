@@ -146,11 +146,12 @@ Vor der Implementierung wurden die Endpunkte geplant und dokumentiert.
 
 ### Beispiel Endpunkte
 
-| Endpunkt    | Methode | Beschreibung       |
-| ----------- | ------- | ------------------ |
-| /tasks      | POST    | Aufgabe erstellen  |
-| /tasks/{id} | PUT     | Aufgabe bearbeiten |
-| /tasks/{id} | DELETE  | Aufgabe löschen    |
+| Endpunkt       | Methode  | Beschreibung       |
+|----------------|----------| ------------------ |
+| `/tasks`       | POST     | Aufgabe erstellen  |
+| `/tasks/{id}`  | PUT      | Aufgabe bearbeiten |
+| `/tasks/{id}`  | DELETE   | Aufgabe löschen    |
+
 
 ---
 
