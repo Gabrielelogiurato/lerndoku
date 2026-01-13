@@ -1,7 +1,9 @@
 ---
-title: Navigation
+title: IntelliJ Shortcuts
 sidebar_position: 9
 ---
+
+# IntelliJ Shortcuts
 
 ## ️ Navigation
 
