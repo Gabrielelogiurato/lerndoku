@@ -5,7 +5,7 @@ sidebar_position: 12
 
 # Infosec Einsatz
 
-In dieser Lerndoku beschreibe ich meinen Einsatz in Infosec. 
+In dieser Lerndoku beschreibe ich meinen Einsatz in Infosec.
 Der Einsatz dauerte ungefähr **20–25 Arbeitstage**. In dieser Zeit habe ich Security‑Grundlagen gelernt, verschiedene Tools ausprobiert und eine reale Applikation sicherheitstechnisch analysiert.
 
 ---
@@ -59,16 +59,16 @@ Typische Aufgaben:
 
 Während des Einsatzes habe ich verschiedene Security‑Tools verwendet.
 
-| Tool | Zweck |
-|------|-------|
-| Tenable | Vulnerability Management |
-| Microsoft Defender | Endpoint Security |
-| Microsoft Sentinel | SIEM / Log‑Analyse |
-| TheHive | Incident Response |
-| Burp Suite / ZAP | Web Application Testing |
-| Semgrep | Static Code Analysis |
-| npm audit | Dependency Check |
-| Trivy | Container‑ und Dependency‑Scanning |
+| Tool               | Zweck                              |
+| ------------------ | ---------------------------------- |
+| Tenable            | Vulnerability Management           |
+| Microsoft Defender | Endpoint Security                  |
+| Microsoft Sentinel | SIEM / Log‑Analyse                 |
+| TheHive            | Incident Response                  |
+| Burp Suite / ZAP   | Web Application Testing            |
+| Semgrep            | Static Code Analysis               |
+| npm audit          | Dependency Check                   |
+| Trivy              | Container‑ und Dependency‑Scanning |
 
 ---
 
@@ -195,7 +195,7 @@ semgrep --config p/security-audi
 
 **Resultat:**
 
-- keine blockierenden Findings  
+- keine blockierenden Findings
 - Test: **PASSED**
 
 ---
@@ -216,13 +216,13 @@ Die Applikation wurde dynamisch getestet.
 
 Geprüft wurden u.a.:
 
-- DOM XSS  
-- Client‑side Prototype Pollution  
-- DOM Clobbering  
+- DOM XSS
+- Client‑side Prototype Pollution
+- DOM Clobbering
 
 **Resultat:**
 
-- keine Schwachstellen gefunden  
+- keine Schwachstellen gefunden
 - Test: **PASSED**
 
 ---
@@ -233,18 +233,18 @@ Das wichtigste Finding waren **verwundbare Dependencies**.
 
 **Risiken:**
 
-- Denial of Service  
-- Prototype Pollution  
-- Path Traversal  
-- unerwartetes Verhalten  
+- Denial of Service
+- Prototype Pollution
+- Path Traversal
+- unerwartetes Verhalten
 
 **Empfehlungen:**
 
-- Dependencies aktualisieren  
-- `npm audit fix`  
-- kritische Pakete manuell prüfen  
-- regelmässige Scans einrichten  
-- Security Checks in CI/CD integrieren  
+- Dependencies aktualisieren
+- `npm audit fix`
+- kritische Pakete manuell prüfen
+- regelmässige Scans einrichten
+- Security Checks in CI/CD integrieren
 
 ---
 
@@ -255,16 +255,16 @@ Importierte Daten sollten stärker validiert werden.
 
 **Mögliche Risiken:**
 
-- ungültige Daten werden gespeichert  
-- bestehende Daten werden überschrieben  
-- grosse Dateien verursachen Performance‑Probleme  
+- ungültige Daten werden gespeichert
+- bestehende Daten werden überschrieben
+- grosse Dateien verursachen Performance‑Probleme
 
 **Empfehlungen:**
 
-- striktes JSON‑Schema  
-- maximale Dateigrösse definieren  
-- unbekannte Felder entfernen  
-- Daten vor dem Speichern validieren  
+- striktes JSON‑Schema
+- maximale Dateigrösse definieren
+- unbekannte Felder entfernen
+- Daten vor dem Speichern validieren
 
 ---
 
@@ -275,9 +275,9 @@ Wichtig ist vor allem, die Resultate richtig zu interpretieren.
 
 Meine wichtigsten Learnings:
 
-- Tool‑Findings sind nicht automatisch echte Findings  
-- CVSS hilft bei der Priorisierung  
-- SAST, DAST und SCA ergänzen sich  
-- Client‑only Apps haben andere Risiken als Backend‑Apps  
-- Dokumentation ist wichtig  
+- Tool‑Findings sind nicht automatisch echte Findings
+- CVSS hilft bei der Priorisierung
+- SAST, DAST und SCA ergänzen sich
+- Client‑only Apps haben andere Risiken als Backend‑Apps
+- Dokumentation ist wichtig
 - Security ist ein kontinuierlicher Prozess
